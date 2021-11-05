@@ -1,0 +1,180 @@
+*{margin: 0;padding: 0; ;
+	font-family: "Poppins", sans-serif;	
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 93vh!important;
+
+}
+.carousel-caption{
+	color: black;
+	font-size: 16px;
+	font-weight: inherit;
+}
+.logo{
+	color: honeydew;
+	;
+}
+.header{
+	
+}
+.aboutustext{
+
+}
+.services{
+
+}
+.aboutimg{
+	width:100%;
+	height: 361px!important;;
+}
+div.center{
+	margin: auto!important;
+	width:50%!important;
+}
+.abouthead{
+font-size: 36px;
+    line-height: 60px;
+	margin: 10px 0;
+}
+.aboutustext{
+	color: rgb(54, 53, 53);
+	font-size: 16px;
+	font-weight: 500;
+	margin: 0 0 26px;
+}
+	
+.card-img-top{
+width: 324px;
+}
+.services-mar{
+	
+	display: flex;
+	justify-content: center;
+  
+}
+.col-lg-4 .col-md-6 .col-12{
+	padding-right: 10px !important;
+}
+.card{
+	padding: 15px; 
+}
+.navbar{
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+}
+.titletext {
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: rgb(54, 53, 53);
+	font-weight: 100;
+  }
+  .titletext::after {
+	content: ".";
+	background-color: #1b1a19;
+	width: 80px;
+	height: 5x;
+	font-size: 5px;
+	line-height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+  .row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+
+.footer {
+	margin-top: 54px;
+	background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+  }
+  
+  .footer p {
+	color: #8a8a8a;
+  }
+  
+  .footer h3 {
+	color: white;
+	margin-bottom: 20px;
+  }
+  
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3,
+  .footer-col-4 {
+	min-width: 250px;
+	margin-bottom: 20px;
+  }
+  
+  .footer-col-1 {
+	flex-basis: 30%;
+  }
+  
+  .footer-col-2 {
+	flex: 1;
+	text-align: center;
+  }
+  
+  .footer-col-2 img {
+	width: px;
+	margin-bottom: 20px;
+  }
+  .footer-col-3,
+  .footer-col-3 {
+	flex-basis: 12%;
+	text-align: center;
+  }
+  
+  ul {
+	list-style-type: none;
+  }
+  
+  .app-logo {
+	margin-top: 20px;
+  }
+  .app-logo img {
+	width: 140px;
+  }
+  
+  .footer hr {
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+  }
+  .copyright {
+	text-align: center;
+  }
+  
+  .menu-icon {
+	width: 28px;
+	margin-left: 20px;
+	display: none;
+  }
+  
+@media only screen and (max-width: 600px) {
+	.row {
+	  text-align: center;
+	}
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5 {
+	  flex-basis: 100%;
+	}
+  
+	.col-5 img {
+	  width: 200px;
+	}
+  }
